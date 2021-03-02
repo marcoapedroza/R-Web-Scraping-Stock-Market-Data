@@ -10,6 +10,7 @@
 <a href="mailto:marco.aurelio.p@hotmail.com">
 <img src="https://cdn.iconscout.com/icon/free/png-256/apple-mail-493152.png" width="22"/> &nbsp; E-mail</a>
 </div>
+
 # R - Web Scraping - Stock Market :chart_with_downwards_trend: :chart_with_upwards_trend: 
 
 - That project is **about**:
