@@ -14,22 +14,32 @@
 # R - Web Scraping - Stock Market :chart_with_downwards_trend: :chart_with_upwards_trend: 
 
 - That project is **about**:
-  1. Web Scraping;
-  2. Organizing Data;
-  3. Handling Data;
-  4. Creating a excel spreadsheet with R Language.
+  - Web Scraping;
+
+  - Organizing Data;
+
+  - Handling Data;
+
+  - Creating a excel spreadsheet with R Language.
 - **Files**:
-  1. [Function](./stocksScrapeAsFunction.R) written in R
-  2. [Excel](./stocks.xlsx) Spreadsheet from the [function](./stocksScrapeAsFunction.R)
-  3. [Project](./web_scraping_stocks.Rmd) written in R Markdown
-  4. [HTML Outcome](./web_scraping_stocks.html)
+  - [Function](./stocksScrapeAsFunction.R) written in R
+
+  - [Excel](./stocks.xlsx) Spreadsheet from the [function](./stocksScrapeAsFunction.R)
+
+  - [Project](./web_scraping_stocks.Rmd) written in R Markdown
+
+  - [HTML Outcome](./web_scraping_stocks.html)
 
 - **Packages** I used:
-  1. Tidyverse;
-  2. Openxlsx;
-  3. Rvest;
-  4. Prettydoc;
-  5. KableExtra.
+  - Tidyverse;
+
+  - Openxlsx;
+
+  - Rvest;
+
+  - Prettydoc;
+
+  - KableExtra.
 
 - **Outcome**:
 
