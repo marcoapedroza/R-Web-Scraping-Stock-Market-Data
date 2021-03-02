@@ -20,15 +20,15 @@
 
   - Handling Data;
 
-  - Creating a excel spreadsheet with R Language.
+  - Creating a excel spreadsheet using R Language.
 - **Files**:
   - [Function](./stocksScrapeAsFunction.R) written in R
 
-  - [Excel](./stocks.xlsx) Spreadsheet from the [function](./stocksScrapeAsFunction.R)
+  - [Excel](./stocks.xlsx) Spreadsheet - Output of the [function](./stocksScrapeAsFunction.R) above
 
   - [Project](./web_scraping_stocks.Rmd) written in R Markdown
 
-  - [HTML Outcome](./web_scraping_stocks.html)
+  - [HTML Outcome](http://marcoaureliop.infinityfreeapp.com/web_scraping_stocks.html)
 
 - **Packages** I used:
   - Tidyverse;
