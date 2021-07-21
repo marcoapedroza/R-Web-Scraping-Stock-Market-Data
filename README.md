@@ -28,7 +28,7 @@
 
   - [Project](./web_scraping_stocks.Rmd) written in R Markdown
 
-  - [HTML Outcome](http://marcoaureliop.infinityfreeapp.com/web_scraping_stocks.html)
+  - [HTML Outcome](http://marcoaureliop.com/stocks/)
 
 - **Packages** I used:
   - Tidyverse;
