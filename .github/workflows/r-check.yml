@@ -11,10 +11,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: r-lib/actions/setup-r@v2
+      - name: Install system libraries
+        run: sudo apt-get update && sudo apt-get install -y libcurl4-openssl-dev libuv1-dev libssl-dev libxml2-dev
       - name: Install dependencies
-        run: Rscript -e 'install.packages(c("rvest", "xml2", "httr", "openxlsx", "rmarkdown", "knitr"), repos = "https://cloud.r-project.org")'
+        run: Rscript -e 'install.packages(c("rvest", "xml2", "httr", "openxlsx", "rmarkdown", "knitr"), repos = Sys.getenv("RSPM"))'
       - name: Test parser
         run: Rscript tests/test_parser.R
       - name: Render historical report
         run: Rscript -e 'rmarkdown::render("web_scraping_stocks.Rmd", output_file = "report-check.html", quiet = TRUE)'
-
